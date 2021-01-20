@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Bookend Capstone Wireframes</title>
     <!-- Link to Bootstrap/Bigma if using it. This is a common CSS framework that makes writing CSS easier.-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
 
     <!-- Link to normalize CSS. A CSS stylesheet that helps to create more consistency across web browsers.-->
     <link
@@ -25,10 +31,46 @@
     <link rel="stylesheet" href="/styles.css" type="text/css" />
 
     <!-- Link to Font Awesome or other icons/image service -->
+    <script
+      src="https://kit.fontawesome.com/131440a91e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
-    <nav class="nav-bar"></nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="nav-bar-left">
+          <a class="navbar-brand" href="/index.html">Bookend</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div
+          class="collapse navbar-collapse flex-row-reverse"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link" href="/features.html">Features</a>
+            <a class="nav-link" href="/about.html">About</a>
+            <a class="nav-link" href="/contact.html">Contact Us</a>
+            <a class="nav-link active" aria-current="page" href="/profile.html"
+              >Profile</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
     <main class="main"></main>
     <footer class="footer-bar"></footer>
 
@@ -41,8 +83,11 @@
     ></script>
 
     <!-- Link to Bootstrap Javascript if using Bootstrap CSS -->
-    <!-- <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
     <!-- Link to jQuery -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.min.js"
