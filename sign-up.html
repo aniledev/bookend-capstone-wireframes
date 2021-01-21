@@ -72,7 +72,69 @@
     </nav>
 
     <main class="main">
-      <section class="sign-up-form">Sign up form</section>
+      <section class="sign-up-form pt-5">
+        <div class="container-md sign-up-title text-center py-2">
+          <h1>Your next favorite book is waiting to meet you.</h1>
+        </div>
+        <div class="form container-md sign-up-form">
+          <form class="sign-up">
+            <div class="form-group">
+              <label for="name" class="sr-only">Name</label>
+              <input
+                class="form-control"
+                type="text"
+                id="name"
+                placeholder="Name"
+                min="1"
+                max="50"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email" class="sr-only">Email</label>
+              <input
+                class="form-control"
+                pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+                id="email"
+                placeholder="Email"
+                min="1"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="password" class="sr-only">Password</label>
+              <input
+                class="form-control"
+                type="password"
+                id="password"
+                placeholder="Password"
+                min="8"
+                max="16"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="retype-password" class="sr-only"
+                >Retype password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="retype-password"
+                placeholder="Retype password"
+                min="8"
+                max="16"
+                required
+              />
+            </div>
+          </form>
+        </div>
+        <div class="sign-up-button container-md text-center py-3">
+          <a class="btn btn-primary" href="/search.html" role="button"
+            >Sign Up</a
+          >
+        </div>
+      </section>
     </main>
     <footer class="footer container mt-5 py-5">
       <div class="row">

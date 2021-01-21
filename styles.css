@@ -2,14 +2,7 @@
   font-family: "Raleway", sans-serif;
 }
 
-.brand-title {
-  font-size: 30px;
-  font-weight: bolder;
-}
-.copyright {
-  margin-top: 25px;
-}
-
+/* index.html */
 .image-hero {
   width: 90%;
   height: 90%;
@@ -18,4 +11,21 @@
 .feature-image {
   width: 100%;
   height: 100%;
+}
+
+/* sign-up.html */
+.form {
+  max-width: 330px;
+}
+
+.form-group {
+  margin: 20px;
+}
+
+/* footer of every page */
+.brand-title {
+  font-weight: bolder;
+}
+.copyright {
+  margin-top: 25px;
 }
