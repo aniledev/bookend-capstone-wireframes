@@ -13,8 +13,9 @@
   height: 100%;
 }
 
-/* sign-up.html */
-.form {
+/* sign-up.html & log-in.html*/
+.log-in-form,
+.sign-up-form {
   max-width: 330px;
 }
 
@@ -22,6 +23,15 @@
   margin: 20px;
 }
 
+/* search.html */
+.search-form {
+  max-width: 70%;
+}
+
+.image-carousel {
+  height: 31%;
+  width: 31%;
+}
 /* footer of every page */
 .brand-title {
   font-weight: bolder;
