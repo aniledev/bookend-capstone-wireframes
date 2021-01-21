@@ -32,6 +32,21 @@
   height: 31%;
   width: 31%;
 }
+
+/* results.html */
+.results-image {
+  width: 75%;
+  height: 75%;
+}
+
+.results {
+  max-width: 50%;
+}
+
+p {
+  font-size: 14px;
+}
+
 /* footer of every page */
 .brand-title {
   font-weight: bolder;
